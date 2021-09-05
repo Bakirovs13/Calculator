@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <style name="Button.Calculator" parent="Widget.MaterialComponents.Button">
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:textSize">30dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="cornerRadius">100dp</item>
+        <item name="android:layout_height">80dp</item>
+
+    </style>
+    
+    <style name="Button.Gray" parent="Button.Calculator">
+        <item name="backgroundTint">@color/gray</item>
+        <item name="android:textColor">@color/black</item>
+
+    </style>
+
+    <style name="Button.Orange" parent="Button.Calculator">
+        <item name="backgroundTint">@color/orange</item>
+        <item name="android:textColor">@color/white</item>
+
+    </style>
+
+
+    <style name="Button.Black" parent="Button.Calculator">
+        <item name="backgroundTint">@color/lightBlack</item>
+        <item name="android:textColor">@color/white</item>
+
+    </style>
+
+
+    
+</resources>
